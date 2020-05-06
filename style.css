@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'bnmu-logo';
+  src:  url('fonts/bnmu-logo.eot?s1x5a6');
+  src:  url('fonts/bnmu-logo.eot?s1x5a6#iefix') format('embedded-opentype'),
+    url('fonts/bnmu-logo.ttf?s1x5a6') format('truetype'),
+    url('fonts/bnmu-logo.woff?s1x5a6') format('woff'),
+    url('fonts/bnmu-logo.svg?s1x5a6#bnmu-logo') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="bnmu-"], [class*=" bnmu-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'bnmu-logo' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bnmu-logo:before {
+  content: "\e900";
+}
